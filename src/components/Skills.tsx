@@ -10,10 +10,12 @@ const Skills = () => {
       color: 'from-blue-500 to-cyan-500',
       skills: [
         { name: 'React.js', level: 90 },
-        { name: 'TypeScript', level: 85 },
+        { name: 'TypeScript', level: 90 },
         { name: 'Tailwind CSS', level: 90 },
         { name: 'HTML', level: 95 },
-        { name: 'JavaScript', level: 95 }
+        { name: 'JavaScript', level: 95 },
+        {name: 'Figma', level: 95},
+        {name: 'Responsive Design', level: 90}
       ]
     },
     {
@@ -23,9 +25,12 @@ const Skills = () => {
       skills: [
         { name: 'Node.js', level: 85 },
         { name: 'Express.js', level: 88 },
-        { name: 'MongoDB', level: 82 },
-        { name: 'PostgreSQL', level: 75 },
-        { name: 'REST APIs', level: 90 }
+        { name: 'MongoDB', level: 85 },
+        { name: 'SQL', level: 85 },
+        { name: 'REST APIs', level: 88 },
+        { name: 'Authentication', level: 85 },
+        { name: 'WebSockets', level: 80 },
+        { name: 'API Testing', level: 80 }
       ]
     },
     {
@@ -37,18 +42,20 @@ const Skills = () => {
         { name: 'Docker', level: 75 },
         { name: 'Git & GitHub', level: 90 },
         { name: 'Firebase', level: 80 },
-        { name: 'Supabase', level: 75 }
+        { name: 'Supabase', level: 75 },
+        { name: 'CI/CD', level: 75 },
+        { name: 'Deployment Basics', level: 80 }
       ]
     }
   ];
 
   const tools = [
-    { name: 'VS Code', icon: '🔧' },
-    { name: 'Figma', icon: '🎨' },
-    { name: 'Postman', icon: '📮' },
-    { name: 'Notion', icon: '📝' },
-    { name: 'Slack', icon: '💬' },
-    { name: 'Trello', icon: '📋' }
+    { name: 'Java' },
+    { name: 'Data Structures & Algorithms' },
+    { name: 'SDLC' },
+    { name: 'OOPs' },
+    { name: 'Team Collaboration' },
+    { name: 'Time management' }
   ];
 
   React.useEffect(() => {
@@ -124,7 +131,7 @@ const Skills = () => {
 
         {/* Tools & Software */}
         <div className="text-center">
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 sm:mb-8">Tools & Software</h3>
+          <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6 sm:mb-8">Others</h3>
           <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
             {tools.map((tool, index) => (
               <div
@@ -132,7 +139,7 @@ const Skills = () => {
                 className="group flex items-center gap-2 sm:gap-3 px-4 sm:px-6 py-2 sm:py-3 bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:-translate-y-1"
               >
                 <span className="text-lg sm:text-2xl group-hover:scale-110 transition-transform duration-300">
-                  {tool.icon}
+                  {/* {tool.icon} */}
                 </span>
                 <span className="font-medium text-gray-700 text-sm sm:text-base">{tool.name}</span>
               </div>

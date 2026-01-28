@@ -6,42 +6,58 @@ const Certificates = () => {
     {
       title: "Full Stack Web Development",
       provider: "Udemy",
-      date: "2024",
-      description: "Comprehensive course covering MERN stack development, authentication, and deployment strategies.",
-      skills: ["React.js", "Node.js", "MongoDB", "Express.js"],
+      date: "2025",
+      description: "Comprehensive course covering MERN stack development with hands-on experience in React.js, Node.js, Express.js, and MongoDB, focusing on RESTful API development, secure authentication, and deployment strategies using industry-standard best practices.",
+      skills: ["React.js","Html", "CSS", "Node.js", "MongoDB", "Express.js", "JWT Authentication", "REST APIs", "Web Development"],
       credentialUrl: "/images/fullstack-cert.pdf",
       badgeColor: "bg-blue-600"
     },
     {
       title: "Introduction to MERN Stack",
       provider: "Simplilearn",
-      date: "2024",
-      description: "Fundamental concepts of MongoDB, Express.js, React.js, and Node.js for full-stack development.",
-      skills: ["MongoDB", "Express.js", "React.js", "Node.js"],
+      date: "2025",
+      description: "Fundamental concepts of MongoDB, Express.js, React.js, and Node.js, focusing on building scalable and efficient full-stack web applications with modern development practices, including hands-on exposure to RESTful APIs and frontend–backend integration.",
+      skills: ["Html", "MongoDB", "Express.js", "React.js", "Node.js", "REST APIs", "Web Development", "Frontend", "Backend"],
       credentialUrl: "/images/mern-cert.pdf",
       badgeColor: "bg-green-600"
-    }
+    },
+    {
+  title: "Build Zomato Clone Using AI",
+  provider: "Cuvette Tech",
+  date: "2025",
+  description: "Hands-on workshop focused on building a Zomato-like food delivery application using AI, covering real-world application design, interactive development, and practical implementation.",
+  skills: [
+    "AI Integration",
+    "Frontend Development",
+    "Backend Development",
+    "Web Application Development",
+    "Project-Based Learning"
+   
+  ],
+  credentialUrl: "/images/Cuvette Certificate.pdf",
+  badgeColor: "bg-blue-600"
+}
   ];
 
   const achievements = [
     {
-      title: "Internshala Student Partner",
-      description: "Leadership role in campus marketing and student engagement initiatives",
-      icon: "🏆",
-      year: "2024"
-    },
+  title: "NCC Sergeant (Rank)",
+  description: "Demonstrated leadership, discipline, and team management through drills, training, and organizational responsibilities",
+  icon: "🎖️",
+  year: "2023 - 2026"
+},
     {
-      title: "ML Workshop Conductor",
+      title: "ML Workshop",
       description: "Conducted Machine Learning workshops for 150+ participants with 4.8/5 rating",
       icon: "🎓",
       year: "2024"
     },
     {
-      title: "Frontend Developer Lead",
-      description: "Led frontend development team at MLCOE Society for major projects",
-      icon: "👨‍💻",
-      year: "2023-2024"
-    }
+  title: "DSA Problem Solving – LeetCode",
+  description: "Solved 150+ Data Structures and Algorithms problems, strengthening problem-solving skills and logical thinking",
+  icon: "💡"
+  
+}
   ];
 
   return (

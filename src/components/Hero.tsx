@@ -86,8 +86,16 @@ const Hero = () => {
               </div>
               
               <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-6 sm:mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed font-light px-4 sm:px-0">
-                Passionate developer crafting innovative web solutions with modern technologies. 
-                Currently pursuing B.Tech in IT and building exceptional digital experiences.
+               Full Stack Developer with expertise in
+React, Node.js, MongoDB, and real-time
+web application development. Built
+production-ready systems like AI Virtual
+Assistant and Uber-style ride booking
+app with live tracking and secure
+authentication. Strong foundation in Java
+from internship experience and
+committed to continuous learning and
+delivering high-performance solutions.
               </p>
               
               {/* CTA Buttons */}

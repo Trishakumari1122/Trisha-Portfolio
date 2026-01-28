@@ -4,26 +4,26 @@ import { Github, ExternalLink, Star, Calendar } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
+      title: "AI Virtual Assistant",
+      description: " Developed an AI-powered Virtual Assistant using React, Node.js, Express, and MongoDB, and integrated the Google Gemini API for voice command processing and powerful task automation workflows efficiently.",
+      image: "/images/virtual assistant.jpg",
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Google Gemini API", "JWT Authentication", "REST APIs"],
+      githubUrl: "https://github.com/Trishakumari1122/VirtualAssistant",
+      liveUrl: "#",
+      category: "Full Stack",
+      featured: true,
+      stats: { stars: 30, forks: 10 }
+    },
+    {
       title: "Uber Clone",
-      description: "Full-featured ride-sharing application with real-time driver tracking, Google Maps integration, and secure payment processing using modern web technologies.",
+      description: "Built a full stack Uber-like application using React, Node.js, Express, and MongoDB with rider and driver management, ride tracking, real time updates, secure payment processing, and scalable backend architecture.",
       image: "/images/uberclone",
-      technologies: ["React.js", "Node.js", "MongoDB", "Google Maps API", "WebSocket"],
+      technologies: ["React.js", "Node.js","Express.js", "MongoDB", "Google Maps API", "WebSocket", "JWT Authentication", "REST APIs"],
       githubUrl: "https://github.com/Trishakumari1122/Uber-Clone",
       liveUrl: "#",
       category: "Full Stack",
       featured: true,
       stats: { stars: 24, forks: 8 }
-    },
-    {
-      title: "E-Commerce Platform",
-      description: "Complete online shopping platform with JWT authentication, Stripe payment integration, and comprehensive admin dashboard for inventory management.",
-      image: "/images/ecommerce.jpg",
-      technologies: ["React.js", "Express.js", "MongoDB", "JWT", "Stripe"],
-      githubUrl: "https://github.com/Trishakumari1122/FullStack-Ecommerce-Website",
-      liveUrl: "#",
-      category: "Full Stack",
-      featured: true,
-      stats: { stars: 18, forks: 5 }
     }
   ];
 

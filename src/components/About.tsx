@@ -3,7 +3,7 @@ import { User, Code, Briefcase, GraduationCap } from 'lucide-react';
 
 const About = () => {
   const stats = [
-    { label: 'Projects Completed', value: '15+', icon: Code },
+    { label: 'Projects Completed', value: '30+', icon: Code },
     { label: 'Technologies Mastered', value: '20+', icon: GraduationCap }
   ];
 

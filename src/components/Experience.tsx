@@ -5,47 +5,32 @@ import { Briefcase, Calendar, MapPin, Award, TrendingUp } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Full Stack Developer Intern",
-      company: "CodeAlpha",
-      period: "May 2025 - June 2025",
-      location: "Remote",
-      description: "Developed full-stack web applications using MERN stack. Built responsive user interfaces and RESTful APIs. Collaborated with cross-functional teams to deliver high-quality software solutions.",
-      achievements: [
-        "Built 3 full-stack applications with 99% uptime",
-        "Improved application performance by 40%",
-        "Mentored 2 junior developers"
-      ],
-      skills: ["React.js", "Node.js", "MongoDB", "Express.js"],
-      type: "internship",
-      current: false
-    },
-    {
       title: "Java Developer Intern",
       company: "Codec Technologies",
       period: "June 2025 - August 2025",
       location: "Remote",
-      description: "Worked on Java-based backend systems and REST API development. Collaborated with senior developers on enterprise projects and gained experience in agile development methodologies.",
+      description: "Worked as a Java Development Intern at Codec Technologies, where I learned to build and debug Java applications using core concepts like OOP and collections, focusing on code quality and problem solving. Worked with standard software development practices, version control, and team-based workflows",
       achievements: [
         "Developed 5+ REST APIs with comprehensive documentation",
         "Reduced API response time by 35%",
         "Implemented automated testing with 90% code coverage"
       ],
-      skills: ["Java", "Spring Boot", "MySQL", "REST APIs"],
+      skills: ["Java", "OOPs", "Collections", "Debugging", "Problem Solving", "Git", "SDLC", "Clean Code"],
       type: "internship",
-      current: true
+      current: false
     },
     {
       title: "Frontend Developer Lead",
       company: "MLCOE Society",
-      period: "2023 - 2024",
+      period: "2022 - 2024",
       location: "AKGEC, Ghaziabad",
-      description: "Led frontend development for society projects. Mentored junior developers and organized technical workshops. Managed project timelines and deliverables for multiple concurrent projects.",
+      description: "Developed educational platforms focused on Machine Learning for over 300 students, creating interactive learning interfaces using React Hooks, Redux, and Material UI to significantly boost student engagement. Improved application performance using efficient rendering and code optimization techniques consistently.",
       achievements: [
         "Led a team of 8 developers on 4 major projects",
         "Conducted 10+ workshops with 150+ participants",
         "Increased team productivity by 50%"
       ],
-      skills: ["React.js", "JavaScript", "CSS3", "HTML5"],
+      skills: ["React.js", "JavaScript", "Redux", "HTML5", "CSS3", "Material UI", "Responsive Design", "Git"],
       type: "leadership",
       current: false
     }

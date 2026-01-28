@@ -20,8 +20,7 @@ const Footer = () => {
               Trisha Kumari
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
-              Full Stack Developer passionate about creating innovative web solutions. 
-              Currently pursuing B.Tech in IT and always eager to learn new technologies.
+              Full Stack Developer with expertise in React, Node.js, MongoDB, and real-time web application development. Built production-ready systems like AI Virtual Assistant and Uber-style ride booking app with live tracking and secure authentication. Strong foundation in Java from internship experience and committed to continuous learning and delivering high-performance solutions.
             </p>
             <div className="flex space-x-4">
               <a
@@ -92,10 +91,13 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Technologies</h3>
             <ul className="space-y-2 text-sm">
-              <li className="text-gray-300">React.js & TypeScript</li>
+              <li className="text-gray-300">Html & CSS</li>
+              <li className="text-gray-300">JavaScript & TypeScript</li>
+              <li className="text-gray-300">React.js & Redux</li>
               <li className="text-gray-300">Node.js & Express</li>
               <li className="text-gray-300">MongoDB & SQL</li>
               <li className="text-gray-300">AWS & DevOps</li>
+              
             </ul>
           </div>
         </div>
